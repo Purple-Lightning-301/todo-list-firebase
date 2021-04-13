@@ -1,8 +1,8 @@
-import "./App.css";
-import Form from "./components/Form/Form";
-import ToDoList from "./components/ToDoList/ToDoList";
+import "../containers/App.css";
+import Form from "../components/Form/Form";
+import ToDoList from "../components/ToDoList/ToDoList";
 import React, { useState, useEffect } from "react";
-import {db, auth} from "./services/firebase";
+import {db, auth} from "../services/firebase";
 
 function App() {
   const [inputText, setInputText] = useState("");
@@ -10,8 +10,6 @@ function App() {
   const [status, setStatus] = useState("all");
   const [filterToDos, setFilterToDos] = useState([]);
   //firebase databases
-  const [toDosFromFb, setToDosFromFb] = useState([]);
-  const [toDosToFb, setToDosToFb] = useState([]);
   
   useEffect(() => {
     // getLocal();

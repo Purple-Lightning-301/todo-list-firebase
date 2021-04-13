@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import "../ToDo/ToDo.css";
 
 function ToDo(props) {
-    const [editTextStatus, setEditTextStatus] = useState("hidden");
 
     const deleteHandler = () => {
         props.setToDos(props.toDos.filter(

@@ -142,7 +142,7 @@ table {
   bottom: 0;
   right: 0;
   z-index: -1;
-  background: url("./assets/bg.jpg") no-repeat;
+  background: url("../assets/bg.jpg") no-repeat;
   opacity: 0.5;
   content: "";
 }
