@@ -1,0 +1,47 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+form, .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form>input{
+    background-color: #f7fffe;
+    border: 2px solid green;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+}
+form>button{
+    position: relative;
+    right: 35px;
+    color: green;
+    background: #f7fffe;
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+form>button:focus{
+    outline: none;
+}
+.select>select{
+    height: 36px;
+    border: 2px solid green;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    color: green !important;
+    padding: 0 !important;
+}
+.select>select:focus{
+    outline: none;
+}
+option{
+  height: 30px;
+}

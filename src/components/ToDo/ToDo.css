@@ -1,0 +1,67 @@
+.todo {
+    margin-top: 20px;
+    background: white;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+  }
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+.complete-btn,
+.edit-btn,
+.cancel-btn {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 30px;
+}
+.trash-btn:focus,
+.complete-btn:focus {
+  outline: none;
+}
+.complete-btn {
+  background: rgb(11, 212, 162);
+}
+.edit-btn {
+  background: rgb(60, 11, 153);
+}
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.hidden {
+  display: none;
+}
+.editText {
+  width: 500px;
+  height: 29px;
+}
+.editForm {
+  margin-top: 20px;
+}
